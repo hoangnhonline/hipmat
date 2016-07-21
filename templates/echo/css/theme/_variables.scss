@@ -1,0 +1,290 @@
+$content-bg:							#FFF; // #FFF
+$pm-top-head-bg:						#FFF; // Origin: #FFF
+$pm-top-head-border-color: 				#e8e8e8; // Origin: #e8e8e8
+
+$pm-video-meta-color:					#aaa; // Origin: #aaa
+
+$nav-highlight:						#288ce4 !default;
+$notify-bubble: 					#F6353E !default;
+
+$thumb-list-height:                    59px;
+$thumb-list-width:                     100%;
+
+$thumb-stacked-width:                  100%;
+$thumb-stacked-height:                 140px;
+
+$channel-avatar-width:                 120px;
+$channel-avatar-height:                120px;
+
+$break-320:                            320px;
+$break-435:                            435px;
+$break-464:				464px;
+$break-1024:                           1024px;
+$break-1336:                           1336px;
+$break-1500:                           1500px;
+
+$body-bg:                              #f1f1f1;
+
+$content-width:                        1170px;
+$ahref-color:                          #000;
+$ahref-hover-color:                    #20A8E1; // Origin: #20A8E1
+$ahref-visited-color:			#408; // Origin: #408
+
+$header-height:                        70px;
+$header-nav-bg:                        #555;
+$header-nav-link-color:                #e8e8e8;
+$header-nav-active-bg:                 #1A1A1A;
+$header-nav-active-color:              #000;
+
+$header-nav-sub-link-color:            #111;
+$header-nav-sub-active-bg:             #20A8E1;
+$header-nav-sub-active-color:          #111;
+
+$pagination-highlight-color:           #000;
+
+$btn-border-radius:                    2px;
+$dropdown-border-radius:               2px;
+$modal-border-radius:                  3px;
+
+
+//                                     #navslide-toggle
+$navslide-toggle-width:                26px;            // The width      of      the     button area
+$navslide-toggle-height:               26px;            // The height     of      the     button area
+$navslide-toggle-thickness:            2px;             // The thickness  of      the     button bars
+$navslide-toggle-pad:                  1px;             // The left/right padding between button area and bars.
+$navslide-toggle-bar-space:            4px;             // The spacing    between button  bars
+$navslide-toggle-transistion-duration: 0.1s;
+// BOOTSTRAP 
+// BOOTSTRAP 
+// BOOTSTRAP 
+
+//== Colors
+//
+//## Gray and brand colors for use across Bootstrap.
+
+$gray-base:              #000 !default;
+$gray-darker:            #222 !default; // #222
+$gray-dark:              #282828 !default;   // #333
+$gray:                   #555 !default; // #555
+$gray-lightish:			 #666 !default;
+$gray-light:             #888 !default;   // #999
+$gray-lighter:           #ADAFAE !default; // #eee
+
+$brand-primary:         #447DF7 !default;
+$brand-success:         #58cc00 !default;
+$brand-info:            #23CCEF !default;
+$brand-warning:         #FFA534 !default;
+$brand-danger:          #FB404B !default;
+
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+//** Global textual link color.
+$link-color:            $brand-primary !default;
+//** Link hover color set via `darken()` function.
+$link-hover-color:      $link-color !default;
+//** Link hover decoration.
+$link-hover-decoration: underline !default;
+
+$border-radius-base:        4px !default;
+$border-radius-large:       6px !default;
+$border-radius-small:       3px !default;
+
+//** Disabled cursor for form controls and buttons.
+$cursor-disabled:                not-allowed !default;
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+
+$btn-font-weight:                normal !default;
+
+$btn-default-color:              #fff !default;
+$btn-default-bg:                 $gray-light !default;
+$btn-default-border:             $btn-default-bg !default;
+
+$btn-primary-color:              $btn-default-color !default;
+$btn-primary-bg:                 $brand-primary !default;
+$btn-primary-border:             $btn-primary-bg !default;
+
+$btn-success-color:              $btn-default-color !default;
+$btn-success-bg:                 $brand-success !default;
+$btn-success-border:             $btn-success-bg !default;
+
+$btn-info-color:                 $btn-default-color !default;
+$btn-info-bg:                    $brand-info !default;
+$btn-info-border:                $btn-info-bg !default;
+
+$btn-warning-color:              $btn-default-color !default;
+$btn-warning-bg:                 $brand-warning !default;
+$btn-warning-border:             $btn-warning-bg !default;
+
+$btn-danger-color:               $btn-default-color !default;
+$btn-danger-bg:                  $brand-danger !default;
+$btn-danger-border:              $btn-danger-bg !default;
+
+$btn-subscribe-color:            $btn-default-color !default;
+$btn-subscribe-bg:               $brand-danger !default;
+$btn-subscribe-border:           $btn-danger-bg !default;
+
+
+$btn-link-disabled-color:        $gray-light !default;
+
+// Allows for customizing button radius independently from global border radius
+$btn-border-radius-base:         $border-radius-base !default;
+$btn-border-radius-large:        $border-radius-large !default;
+$btn-border-radius-small:        $border-radius-small !default;
+
+
+//== Form states and alerts
+//
+//## Define colors for form feedback states and, by default, alerts.
+
+$state-success-text:             #ffffff !default;
+$state-success-bg:               #77b300 !default;
+$state-success-border:           $state-success-bg !default;
+
+$state-info-text:                #ffffff !default;
+$state-info-bg:                  darken($btn-info-bg, 5%) !default;
+$state-info-border:              $state-info-bg !default;
+
+$state-warning-text:             #ffffff !default;
+$state-warning-bg:               #ff8800 !default;
+$state-warning-border:           $state-warning-bg !default;
+
+$state-danger-text:              #ffffff !default;
+$state-danger-bg:                #cc0000 !default;
+$state-danger-border:            $state-danger-bg !default; //darken(adjust-hue($state-danger-bg, -10), 5%) !default;
+
+//== Alerts
+//
+//## Define alert colors, border radius, and padding.
+
+$alert-padding:               10px !default;
+$alert-border-radius:         $border-radius-base !default;
+$alert-link-font-weight:      bold !default;
+
+$alert-success-bg:            $state-success-bg !default;
+$alert-success-text:          $state-success-text !default;
+$alert-success-border:        $state-success-border !default;
+
+$alert-info-bg:               $state-info-bg !default;
+$alert-info-text:             $state-info-text !default;
+$alert-info-border:           $state-info-border !default;
+
+$alert-warning-bg:            $state-warning-bg !default;
+$alert-warning-text:          $state-warning-text !default;
+$alert-warning-border:        $state-warning-border !default;
+
+$alert-danger-bg:             $state-danger-bg !default;
+$alert-danger-text:           $state-danger-text !default;
+$alert-danger-border:         $state-danger-border !default;
+
+
+//== Components
+//
+//## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).
+
+$padding-base-vertical:     6px !default;
+$padding-base-horizontal:   12px !default;
+
+$padding-large-vertical:    10px !default;
+$padding-large-horizontal:  16px !default;
+
+$padding-small-vertical:    5px !default;
+$padding-small-horizontal:  10px !default;
+
+$padding-xs-vertical:       1px !default;
+$padding-xs-horizontal:     5px !default;
+
+$line-height-large:         1.3333333 !default; // extra decimals for Win 8.1 Chrome
+$line-height-small:         1.5 !default;
+
+$border-radius-base:        4px !default;
+$border-radius-large:       6px !default;
+$border-radius-small:       3px !default;
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+$font-size-base:          14px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:        1.428571429 !default; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+//** By default, this inherits from the `<body>`.
+$headings-font-family:    inherit !default;
+$headings-font-weight:    500 !default;
+$headings-line-height:    1.1 !default;
+$headings-color:          inherit !default;
+
+//== Forms
+//
+//##
+
+//** `<input>` background color
+$input-bg:                       #fff !default;
+//** `<input disabled>` background color
+$input-bg-disabled:              $gray-lighter !default;
+
+//** Text color for `<input>`s
+$input-color:                    $gray !default;
+//** `<input>` border color
+$input-border:                   #ccc !default;
+
+// TODO: Rename `$input-border-radius` to `$input-border-radius-base` in v4
+//** Default `.form-control` border radius
+// This has no effect on `<select>`s in some browsers, due to the limited stylability of `<select>`s in CSS.
+$input-border-radius:            $border-radius-base !default;
+//** Large `.form-control` border radius
+$input-border-radius-large:      $border-radius-large !default;
+//** Small `.form-control` border radius
+$input-border-radius-small:      $border-radius-small !default;
+
+//** Border color for inputs on focus
+$input-border-focus:             #aaa !default;
+
+//** Placeholder text color
+$input-color-placeholder:        #999 !default;
+
+//** Default `.form-control` height
+$input-height-base:              ($line-height-computed + ($padding-base-vertical * 2) + 2) !default;
+//** Large `.form-control` height
+$input-height-large:             (ceil($font-size-large * $line-height-large) + ($padding-large-vertical * 2) + 2) !default;
+//** Small `.form-control` height
+$input-height-small:             (floor($font-size-small * $line-height-small) + ($padding-small-vertical * 2) + 2) !default;
+
+//** `.form-group` margin
+$form-group-margin-bottom:       15px !default;
+
+$legend-color:                   $gray-dark !default;
+$legend-border-color:            #e5e5e5 !default;
+
+//** Background color for textual input addons
+$input-group-addon-bg:           $gray-lighter !default;
+//** Border color for textual input addons
+$input-group-addon-border-color: $input-border !default;
+
+//** Disabled cursor for form controls and buttons.
+$cursor-disabled:                not-allowed !default;

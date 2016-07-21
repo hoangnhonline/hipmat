@@ -1,0 +1,448 @@
+@import "theme/variables";
+@import "theme/mixin";
+@import "theme/bootstrap.elements";
+
+.mastcontent-wrap {
+	.row-page-heading {
+		.btn {
+			float: left;
+		}
+	}
+}
+
+
+/* Search Suggestions Dropdown */
+.pm-search-suggestions {
+	ul.pm-search-suggestions-list {
+		li {
+			.pm-sl-thumb {
+				float: right;
+				margin-left: 15px;
+				margin-right:0;
+			}
+			a {
+				float: right;
+			}
+		}
+
+	}
+}
+
+.navbar-pmuser 
+{
+
+	float: left;
+
+	.dropdown-menu {
+		&:after,
+		&:before {
+			bottom:100%;
+			left: 8%;
+			right: auto;
+		}
+	}
+
+
+	// Only for the USER MENU
+	.nav-menu-item {
+		.dropdown-menu {
+			left: auto;
+			right: -160px;
+			li {
+				&:first-child {
+
+					.btn-nav-edit-profile {
+						left: 16px;
+						right: auto;
+
+
+					}
+
+				}
+			}
+		}
+	}
+
+	#pm-top-mobile-search-show,
+	#pm-social-notifications-show {
+		margin: 0 !important;
+		padding: 10px 0 !important;
+
+		&:focus,
+		&:hover{
+			color:#333;
+			text-decoration:none;
+		}
+
+		i.mico {
+			padding:0 !important;
+			margin:0 !important;
+			font-size: 30px;
+			vertical-align: middle;
+			color: $gray-lightish;
+
+			@include respond-to(handhelds) {
+				font-size: 24px; 
+			}
+
+		}
+	}
+	.pm-social-notifications-count {
+		top: -2px;
+		right: 0;
+		font-size: 10px;
+		padding:3px 4px;
+		background-color: $notify-bubble;
+	}
+}
+
+/* Social Notifications List */
+#pm-social-notifications-container {
+
+	right: auto;
+	left: 0;
+
+}
+
+.pm-video-heading {
+
+	.pm-video-adjust {
+		text-align: left;
+		float: left;
+	}
+
+	.label-featured {
+		left: auto;
+		right: 15px;
+	}
+
+}
+
+.row.pm-video-control {
+
+
+	#bin-rating-like-confirmation,
+	#bin-rating-dislike-confirmation {
+
+
+		&:after,
+		&:before {
+			top:100%;
+			left: auto;
+			right: 8%;
+
+		}
+
+	}
+
+	#bin-rating-dislike-confirmation {
+		left: auto;
+		right: 80px;
+		top: -88px;
+
+
+		@include respond-to(handhelds) {
+			right: 50px;
+			left: auto;
+		}
+	}
+
+
+}
+
+.pm-video-main-methods {
+    float: left !important;
+
+}
+
+
+/* Profile
+--------------------------------------------- */
+.pm-profile .pm-profile-header .pm-profile-cover .pm-profile-user-info .pm-profile-buttons {
+	right: auto;
+	left: 15%;
+}
+.pm-profile .pm-profile-header .pm-profile-cover .pm-profile-user-info h1 {
+	margin-right: 10px;
+}
+
+/* Articles
+--------------------------------------------- */
+header .pull-right {
+	float: left !important;
+}
+article.post .entry-meta {
+	direction: ltr;
+}
+
+
+/* Sidelist videos
+--------------------------------------------- */
+#pm-related {
+
+	.pm-autoplay-select {
+		top: -1px;
+		right: auto;
+		left: 0;
+		.pm-autoplay-info {
+
+			left:0;
+
+		}
+		.pm-autoplay-switch {
+			.autoplayonoff-inner {
+				&:before {
+
+
+					margin-left: auto;
+					margin-right: -100%;
+				}
+			}
+		}
+	}
+
+
+}
+
+/* Video Category Page
+--------------------------------------------- */
+.pm-ul-browse-categories {
+	li {
+
+		float: right;
+
+
+		h3 {
+
+			padding: 12px 14px 12px 0px;
+
+		}
+
+	}
+}
+
+
+// My Private Profile 
+#profile-header {
+	
+
+	.nav {
+
+		left: auto;
+		right: 120px;
+
+		@include respond-to(handhelds) {
+			position: relative;
+			bottom:0;
+			left: auto;
+			right: 0;
+		}
+
+
+	}
+}
+
+
+/* Cover Editing 
+-------------------------------------------- */
+
+
+.pm-pl-list {
+
+	li {
+		.pm-pl-list-index {
+			float: right;
+		}		
+	}
+
+}
+
+/* Comment Container */
+.pm-comments-container {
+
+
+
+	#pm-post-form {
+
+
+		a.emoji-shortcut {
+
+
+			i {
+
+
+				right: auto;
+				left: 22px;
+			}
+		}
+
+		textarea {
+			font-size: 13px;
+		}
+	}
+
+
+	ul.pm-ul-comments {
+
+		/* Comment List (Item) */
+		li.media {
+
+			a.pull-left {
+				float: right !important;
+				margin-left: 10px !important;
+				margin-right:0;
+			}
+
+			.media-actions {
+				top: 0;
+				left: 4px;
+				right: auto;
+			}
+		}
+	}
+}
+
+li.media {
+	.pull-left {
+		float: right !important;
+		margin-left: 10px !important;
+		margin-right:0;
+	}
+
+	.media-actions {
+		right: auto !important;
+		left: 0 !important;
+	}
+
+	.pm-social-obj-video .pm-video-thumb {
+		float: right !important;
+		margin: 0 10px !important;
+	}
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	11.Footer
+/*-----------------------------------------------------------------------------------*/
+.container-footer {
+
+
+	footer {
+
+		.pull-right {
+			float: left !important;
+		}
+
+		.pm-language {
+			.pm-language-list {
+				left: 0 !important;
+				right: auto !important;
+			}
+		}
+
+	}
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	12.Side Menu
+/*-----------------------------------------------------------------------------------*/
+
+
+.navmenu,
+.navbar-offcanvas {
+
+	left: auto;
+	right: 0;
+}
+
+.navmenu-default.offcanvas.in {
+
+	-webkit-animation-name: slideInRight;
+	animation-name: slideInRight;
+}
+
+// Submenus
+.navslide-wrap {
+	.dropdown-menu {
+
+		text-align: right;
+
+	}
+	.dropdown-submenu>a:after {
+		content:"";
+
+	}
+	.dropdown-submenu:hover>a:after {
+		border-left-color: transparent;
+	}
+	.dropdown-submenu>a:before {
+
+
+	}
+	.dropdown-submenu:hover>a:before {
+		border-left-color: #CCC;
+	}
+}
+
+
+/* Navigation */
+@include respond-to(medium-screens) {
+	.nav-responsive {
+		ul.nav.nav-underlined {
+
+			border: none;
+			border: 0;
+
+			li {
+				background-color: transparent;
+
+			}
+		}
+	}
+}
+
+/* Upload Modal */
+
+/*-----------------------------------------------------------------------------------*/
+/*	14.Responsive Layout Adjustments
+/*-----------------------------------------------------------------------------------*/
+
+ul.pm-ul-browse-videos-list {
+	li {
+		margin-bottom: 0;
+	}
+	.col-md-3,
+	.col-md-4,
+	.col-md-2 {
+		width: 100%;
+		.thumbnail {
+			margin: 10px 0;
+			display: list-item;
+			min-height: 60px;
+
+			@include maintain-ratio(0 0);
+			padding-left: 0;
+			padding-bottom: 0px !important;
+		}
+		.pm-video-thumb {
+			display: block;
+			float: left;
+		}
+		h3 {
+		}
+		.caption {
+			margin-left: 10px;
+			float: right;
+		}
+	}
+}
+
+
+.pm-video-labels {
+	right: auto;
+	left: 4px;
+	direction: ltr;
+	text-align: left;
+}
+
+
+.fadeInLeft{-webkit-animation-name:fadeInRight;animation-name:fadeInRight}
